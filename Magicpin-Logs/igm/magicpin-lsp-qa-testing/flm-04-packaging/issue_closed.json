@@ -1,0 +1,64 @@
+{
+  "context": {
+    "domain": "nic2004:60232",
+    "country": "IND",
+    "city": "std:080",
+    "action": "issue",
+    "bap_id": "biz.preprod.lagroce.com",
+    "bap_uri": "https://biz.preprod.lagroce.com/ecc/ondc/logistics-bap",
+    "bpp_id": "ultrontest.magicpin.com/oms_partner/ondc/logistics",
+    "bpp_uri": "https://ultrontest.magicpin.com/oms_partner/ondc/logistics/",
+    "transaction_id": "LOG-69486a78-aeb7-4e76-b2b1-2021550a7f3c",
+    "message_id": "6bafbfeb-e512-447f-8d25-3e825e1f74a8",
+    "timestamp": "2023-10-17T06:38:31.681Z",
+    "ttl": "PT30S",
+    "core_version": "1.0.0"
+  },
+  "message": {
+    "issue": {
+      "id": "1e62625d-c5e1-47d5-a713-bd34afa58d49",
+      "rating": "THUMBS-UP",
+      "status": "CLOSED",
+      "created_at": "2023-10-17T06:33:38.166Z",
+      "updated_at": "2023-10-17T06:38:25.439Z",
+      "issue_actions": {
+        "complainant_actions": [
+          {
+            "short_desc": "Complaint created",
+            "updated_at": "2023-10-17T06:33:39.219Z",
+            "updated_by": {
+              "org": {
+                "name": "buyer-app-preprod.ondc.org::nic2004:52110"
+              },
+              "person": {
+                "name": "Rishabhnand Singh"
+              },
+              "contact": {
+                "email": "Rishabhnand.singh@ondc.org",
+                "phone": "6239083807"
+              }
+            },
+            "complainant_action": "OPEN"
+          },
+          {
+            "short_desc": "Complaint closed",
+            "updated_at": "2023-10-17T06:38:25.439Z",
+            "updated_by": {
+              "org": {
+                "name": "buyer-app-preprod.ondc.org::nic2004:52110"
+              },
+              "person": {
+                "name": "Rishabhnand Singh"
+              },
+              "contact": {
+                "email": "Rishabhnand.singh@ondc.org",
+                "phone": "6239083807"
+              }
+            },
+            "complainant_action": "CLOSE"
+          }
+        ]
+      }
+    }
+  }
+}

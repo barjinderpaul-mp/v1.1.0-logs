@@ -1,0 +1,135 @@
+{
+  "context": {
+    "domain": "nic2004:60232",
+    "country": "IND",
+    "city": "std:080",
+    "action": "issue",
+    "bap_id": "biz.preprod.lagroce.com",
+    "bap_uri": "https://biz.preprod.lagroce.com/ecc/ondc/logistics-bap",
+    "bpp_id": "ultrontest.magicpin.com/oms_partner/ondc/logistics",
+    "bpp_uri": "https://ultrontest.magicpin.com/oms_partner/ondc/logistics/",
+    "transaction_id": "LOG-adc4e98a-40af-4e1b-b129-3a4787332424",
+    "message_id": "8aaad08b-5878-45a5-ae4b-9941f9e397a1",
+    "timestamp": "2023-10-17T06:23:13.656Z",
+    "ttl": "PT30S",
+    "core_version": "1.0.0"
+  },
+  "message": {
+    "issue": {
+      "id": "f9243705-9910-4eae-bcdb-2c8c59b1222f",
+      "category": "FULFILLMENT",
+      "sub_category": "FLM02",
+      "complainant_info": {
+        "person": {
+          "name": "smruti"
+        },
+        "contact": {
+          "email": "srb13456123456+42@gmail.com",
+          "phone": "7207734015"
+        }
+      },
+      "order_details": {
+        "id": "2-1001-1032",
+        "items": [
+          {
+            "id": "15",
+            "quantity": 4
+          }
+        ],
+        "state": "Accepted",
+        "provider_id": "2:2",
+        "fulfillments": [
+          {
+            "id": "FPA:2:::962:NAD",
+            "state": "Pending"
+          }
+        ],
+        "merchant_order_id": "1001-1032"
+      },
+      "description": {
+        "images": [
+          "https://buyer-app-preprod.ondc.org/issueApis/uploads/1697523777804.png"
+        ],
+        "long_desc": "Delay in delivery",
+        "short_desc": "Delay in delivery",
+        "additional_desc": {
+          "url": "https://buyerapp.com/additonal-details/desc.txt",
+          "content_type": "text/plain"
+        }
+      },
+      "source": {
+        "network_participant_id": "buyer-app-preprod.ondc.org",
+        "type": "CONSUMER"
+      },
+      "expected_response_time": {
+        "duration": "PT1H"
+      },
+      "expected_resolution_time": {
+        "duration": "P1D"
+      },
+      "status": "OPEN",
+      "issue_type": "ISSUE",
+      "issue_actions": {
+        "complainant_actions": [
+          {
+            "short_desc": "Complaint created",
+            "updated_at": "2023-10-17T06:22:57.805Z",
+            "updated_by": {
+              "org": {
+                "name": "buyer-app-preprod.ondc.org::nic2004:52110"
+              },
+              "person": {
+                "name": "Rishabhnand Singh"
+              },
+              "contact": {
+                "email": "Rishabhnand.singh@ondc.org",
+                "phone": "6239083807"
+              }
+            },
+            "complainant_action": "OPEN"
+          }
+        ],
+        "respondent_actions": [
+          {
+            "short_desc": "Complaint is being processed",
+            "updated_at": "2023-10-17T06:23:00.638Z",
+            "updated_by": {
+              "org": {
+                "name": "biz.preprod.lagroce.com::nic2004:52110"
+              },
+              "person": {
+                "name": "Subash Kumar"
+              },
+              "contact": {
+                "email": "support@bitsila.com",
+                "phone": "9632056194"
+              }
+            },
+            "cascaded_level": 1,
+            "respondent_action": "PROCESSING"
+          },
+          {
+            "respondent_action": "CASCADED",
+            "short_desc": "Complaint cascaded",
+            "updated_at": "2023-10-17T06:23:13.649Z",
+            "updated_by": {
+              "org": {
+                "name": "biz.preprod.lagroce.com::nic2004:52110"
+              },
+              "person": {
+                "name": "Subash Kumar"
+              },
+              "contact": {
+                "email": "support@bitsila.com",
+                "phone": "9632056194"
+              }
+            },
+            "cascaded_level": 2
+          }
+        ]
+      },
+      "created_at": "2023-10-17T06:22:56.735Z",
+      "updated_at": "2023-10-17T06:23:13.649Z"
+    }
+  }
+}

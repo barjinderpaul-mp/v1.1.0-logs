@@ -1,0 +1,141 @@
+{
+  "context": {
+    "domain": "nic2004:60232",
+    "country": "IND",
+    "city": "std:080",
+    "action": "on_issue_status",
+    "core_version": "1.0.0",
+    "bap_id": "biz.preprod.lagroce.com",
+    "bap_uri": "https://biz.preprod.lagroce.com/ecc/ondc/logistics-bap",
+    "bpp_id": "ultrontest.magicpin.com/oms_partner/ondc/logistics",
+    "bpp_uri": "https://ultrontest.magicpin.com/oms_partner/ondc/logistics/",
+    "transaction_id": "LOG-69486a78-aeb7-4e76-b2b1-2021550a7f3c",
+    "message_id": "4971a88f-551d-49c0-b6ac-bde4f96bd540",
+    "timestamp": "2023-10-17T06:37:14.444Z"
+  },
+  "message": {
+    "issue": {
+      "id": "1e62625d-c5e1-47d5-a713-bd34afa58d49",
+      "issue_actions": {
+        "respondent_actions": [
+          {
+            "respondent_action": "PROCESSING",
+            "short_desc": "Complaint is being processed",
+            "updated_at": "2023-10-17T06:33:42.967Z",
+            "updated_by": {
+              "org": {
+                "name": "biz.preprod.lagroce.com::nic2004:52110"
+              },
+              "contact": {
+                "phone": "9632056194",
+                "email": "support@bitsila.com"
+              },
+              "person": {
+                "name": "Subash Kumar"
+              }
+            },
+            "cascaded_level": 1
+          },
+          {
+            "respondent_action": "CASCADED",
+            "short_desc": "Complaint cascaded",
+            "updated_at": "2023-10-17T06:33:53.535Z",
+            "updated_by": {
+              "org": {
+                "name": "biz.preprod.lagroce.com::nic2004:52110"
+              },
+              "contact": {
+                "phone": "9632056194",
+                "email": "support@bitsila.com"
+              },
+              "person": {
+                "name": "Subash Kumar"
+              }
+            },
+            "cascaded_level": 2
+          },
+          {
+            "respondent_action": "PROCESSING",
+            "short_desc": "Complaint is being processed",
+            "updated_at": "2023-10-17T06:33:56.424Z",
+            "updated_by": {
+              "org": {
+                "name": "ultrontest.magicpin.com/oms_partner/ondc/logistics::nic2004:60232"
+              },
+              "contact": {
+                "phone": "8826372071",
+                "email": "vikas.bhatia@magicpin.in"
+              },
+              "person": {
+                "name": "Vikas Bhatia"
+              }
+            },
+            "cascaded_level": 2
+          },
+          {
+            "respondent_action": "RESOLVED",
+            "short_desc": "Complaint resolved",
+            "updated_at": "2023-10-17T06:37:14.425Z",
+            "updated_by": {
+              "org": {
+                "name": "ultrontest.magicpin.com/oms_partner/ondc/logistics::nic2004:60232"
+              },
+              "contact": {
+                "phone": "8826372071",
+                "email": "vikas.bhatia@magicpin.in"
+              },
+              "person": {
+                "name": "Vikas Bhatia"
+              }
+            },
+            "cascaded_level": 2
+          }
+        ]
+      },
+      "created_at": "2023-10-17T06:33:38.166Z",
+      "updated_at": "2023-10-17T06:37:14.425Z",
+      "resolution_provider": {
+        "respondent_info": {
+          "type": "CASCADED-COUNTERPARTY-NP",
+          "organization": {
+            "org": {
+              "name": "ultrontest.magicpin.com/oms_partner/ondc/logistics::nic2004:60232"
+            },
+            "contact": {
+              "phone": "8826372071",
+              "email": "vikas.bhatia@magicpin.in"
+            },
+            "person": {
+              "name": "Vikas Bhatia"
+            }
+          },
+          "resolution_support": {
+            "chat_link": "",
+            "contact": {
+              "phone": "8826372071",
+              "email": "vikas.bhatia@magicpin.in"
+            },
+            "gros": [
+              {
+                "person": {
+                  "name": "Vikas Bhatia"
+                },
+                "contact": {
+                  "phone": "8826372071",
+                  "email": "vikas.bhatia@magicpin.in"
+                },
+                "gro_type": "CASCADED-COUNTERPARTY-NP-GRO"
+              }
+            ]
+          }
+        }
+      },
+      "resolution": {
+        "short_desc": "Resolved",
+        "long_desc": "Test refund long desc",
+        "action_triggered": "REFUND",
+        "refund_amount": "50.00"
+      }
+    }
+  }
+}

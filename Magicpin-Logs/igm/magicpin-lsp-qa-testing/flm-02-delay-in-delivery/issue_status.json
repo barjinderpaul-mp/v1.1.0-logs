@@ -1,0 +1,20 @@
+{
+  "context": {
+    "domain": "nic2004:60232",
+    "country": "IND",
+    "city": "std:080",
+    "action": "issue_status",
+    "bap_id": "biz.preprod.lagroce.com",
+    "bap_uri": "https://biz.preprod.lagroce.com/ecc/ondc/logistics-bap",
+    "bpp_id": "ultrontest.magicpin.com/oms_partner/ondc/logistics",
+    "bpp_uri": "https://ultrontest.magicpin.com/oms_partner/ondc/logistics/",
+    "transaction_id": "LOG-adc4e98a-40af-4e1b-b129-3a4787332424",
+    "message_id": "3dd20a2a-9693-4732-a3eb-e85e10ca4e86",
+    "timestamp": "2023-10-17T06:23:17.656Z",
+    "ttl": "PT30S",
+    "core_version": "1.0.0"
+  },
+  "message": {
+    "issue_id": "f9243705-9910-4eae-bcdb-2c8c59b1222f"
+  }
+}
